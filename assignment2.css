@@ -1,31 +1,34 @@
-
-.para1{
+.navbar{
     display: flex;
     align-items: center;
 }
 
-.a1{
+.logo1{
     margin-left: 57px;
+}
+
+.a1{
+    margin-left: 47px;
 }
 
 .a2{
-    margin-left: 57px;
+    margin-left: 47px;
 }
 
 .a3{
-    margin-left: 57px;
+    margin-left: 47px;
 }
 
 .a4{
-    margin-left: 57px;
+    margin-left: 47px;
 }
 
 .a5{
-    margin-left: 57px;
+    margin-left: 47px;
 }
 
 .a6{
-    margin-left: 501px;
+    margin-left: 47px;
 }
 
 a.a1:link{
@@ -42,6 +45,10 @@ a.a1:visited{
     font-size: large;
 }
 
+a.a1:hover{
+    text-shadow: 2px 2px 2px gray;
+}
+
 a.a2:link{
     text-decoration: none;
     color: whitesmoke;
@@ -54,6 +61,10 @@ a.a2:visited{
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+}
+
+a.a2:hover{
+    text-shadow: 2px 2px 2px gray;
 }
 
 a.a3:link{
@@ -70,6 +81,10 @@ a.a3:visited{
     font-size: large;
 }
 
+a.a3:hover{
+    text-shadow: 2px 2px 2px gray;
+}
+
 a.a4:link{
     text-decoration: none;
     color: whitesmoke;
@@ -82,6 +97,10 @@ a.a4:visited{
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+}
+
+a.a4:hover{
+    text-shadow: 2px 2px 2px gray;
 }
 
 a.a5:link{
@@ -98,22 +117,27 @@ a.a5:visited{
     font-size: large;
 }
 
+a.a5:hover{
+    text-shadow: 2px 2px 2px gray;
+}
+
 a.a6:link{
-    background-color: rgb(43, 54, 102);
+    background-color: whitesmoke;
     text-decoration: none;
-    color: whitesmoke;
+    color: seagreen;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
+    border-radius: 7px;
 }
 
 a.a6:visited{
-    background-color: rgb(43, 54, 102);
+    background-color: whitesmoke;
     text-decoration: none;
-    color: whitesmoke;
+    color: seagreen;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     padding-left: 25px;
@@ -121,10 +145,11 @@ a.a6:visited{
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 15px;
+    border-radius: 7px;
 }
 
 a.a6:hover{
-    background-color: rgb(87, 100, 155);
+    background-color: rgb(118, 180, 145);
     text-decoration: none;
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -134,41 +159,97 @@ a.a6:hover{
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 15px;
+    border-radius: 7px;
+    letter-spacing: 0.1rem;
 }
 
 .r2c1{
-    color: whitesmoke;
     margin-left: 57px;
     font-size: 65px;
-    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+
+@keyframes example {
+    from{
+        color: seagreen;
+    }
+    to{
+        color: whitesmoke;
+    }
+}
+
+.text2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    animation-name: example;
+    animation-duration: 3.4s;
+    animation-timing-function: linear;
+    animation-delay: 1.4s;
+}
+
+@keyframes example {
+    from{
+        color: seagreen;
+    }
+    to{
+        color: whitesmoke;
+    }
+}
+
+.text3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    animation-name: example;
+    animation-duration: 3.8s;
+    animation-timing-function: linear;
+    animation-delay: 1.8s;
+}
+
+@keyframes example {
+    from{
+        color: seagreen;
+    }
+    to{
+        color: whitesmoke;
+    }
 }
 
 a.a7:link{
-    background-color: rgb(43, 54, 102);
+    background-color: whitesmoke;
     text-decoration: none;
-    color: whitesmoke;
+    color: seagreen;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
+    border-radius: 7px;
 }
 
 a.a7:visited{
-    background-color: rgb(43, 54, 102);
+    background-color: whitesmoke;
     text-decoration: none;
-    color: whitesmoke;
+    color: seagreen;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
+    border-radius: 7px;
 }
 
 a.a7:hover{
-    background-color: rgb(87, 100, 155);
+    background-color: rgb(118, 180, 145);
     text-decoration: none;
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -178,15 +259,72 @@ a.a7:hover{
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 15px;
+    letter-spacing: 0.1rem;
+    border-radius: 7px;
 }
 
-.r2c2{
-    margin-left: 401px;
-    margin-top: 55px;
+#slider{
+    overflow: hidden;
+    margin-left: 60px;
+    margin-right: 500px;
+    border: 1px solid whitesmoke;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px 1px whitesmoke;
 }
 
-.i0:hover{
-    box-shadow: 12px 12px 12px 12px rgb(77, 134, 102);
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img{
+    float: left;
+    width: 20%;
+}
+
+@keyframes slider{
+    0%{
+        left: 0%;
+    }
+
+    0%{
+        left: 0%;
+    }
+
+    20%{
+        left: -100%;
+    }
+
+    25%{
+        left: -100%;
+    }
+
+    45%{
+        left: -200%;
+    }
+
+    50%{
+        left: -200%;
+    }
+
+    70%{
+        left: -300%;
+    }
+
+    75%{
+        left: -300%;
+    }
+
+    95%{
+        left: -400%;
+    }
+
+    100%{
+        left: -400%;
+    }
 }
 
 .para2{
@@ -196,8 +334,8 @@ a.a7:hover{
 
 .header1{
     background-color: seagreen;
-    padding-left: 59px;
-    padding-right: 43px;
+    padding-left: 67px;
+    padding-right: 57px;
     padding-top: 43px;
     padding-bottom: 103px;
 }
@@ -214,7 +352,7 @@ a.a7:hover{
     padding: 11px;
     background-color: whitesmoke;
     box-shadow: 3px 3px 3px 3px gray;
-    margin-right: 30px;
+    margin-right: 3px;
 }
 
 .box1:hover{
@@ -225,7 +363,7 @@ a.a7:hover{
     padding: 11px;
     background-color: whitesmoke;
     box-shadow: 3px 3px 3px 3px gray;
-    margin-right: 30px;
+    margin-right: 3px;
 }
 
 .box2:hover{
@@ -251,7 +389,7 @@ a.a7:hover{
     padding: 11px;
     background-color: whitesmoke;
     box-shadow: 3px 3px 3px 3px gray;
-    margin-right: 30px;
+    margin-right: 3px;
 }
 
 .box4:hover{
@@ -262,7 +400,7 @@ a.a7:hover{
     padding: 11px;
     background-color: whitesmoke;
     box-shadow: 3px 3px 3px 3px gray;
-    margin-right: 30px;
+    margin-right: 3px;
 }
 
 .box5:hover{
@@ -288,7 +426,7 @@ a.a7:hover{
     padding: 11px;
     background-color: whitesmoke;
     box-shadow: 3px 3px 3px 3px gray;
-    margin-right: 30px;
+    margin-right: 3px;
 }
 
 .box7:hover{
@@ -299,7 +437,7 @@ a.a7:hover{
     padding: 11px;
     background-color: whitesmoke;
     box-shadow: 3px 3px 3px 3px gray;
-    margin-right: 30px;
+    margin-right: 3px;
 }
 
 .box8:hover{
@@ -325,7 +463,7 @@ a.a7:hover{
     padding: 11px;
     background-color: whitesmoke;
     box-shadow: 3px 3px 3px 3px gray;
-    margin-right: 30px;
+    margin-right: 3px;
 }
 
 .box10:hover{
@@ -336,7 +474,7 @@ a.a7:hover{
     padding: 11px;
     background-color: whitesmoke;
     box-shadow: 3px 3px 3px 3px gray;
-    margin-right: 30px;
+    margin-right: 3px;
 }
 
 .box11:hover{
@@ -367,6 +505,22 @@ a.a7:hover{
 .p1{
     font-size: 55px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1.2s;
+}
+
+@keyframes example1 {
+    from{
+        color: black;
+    }
+
+    to{
+        color: seagreen;
+    }
 }
 
 .p2{
@@ -376,9 +530,8 @@ a.a7:hover{
 }
 
 .r5c2{
-    margin-left: 200px;
+    margin-left: 15px;
     margin-top: 75px;
-    box-shadow: 3px 3px 3px 3px gray;
 }
 
 .r5c2:hover{
@@ -386,7 +539,7 @@ a.a7:hover{
 }
 
 a.a8:link{
-    background-color: rgb(43, 54, 102);
+    background-color: seagreen;
     text-decoration: none;
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -395,10 +548,11 @@ a.a8:link{
     padding-right: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
+    border-radius: 7px;
 }
 
 a.a8:visited{
-    background-color: rgb(43, 54, 102);
+    background-color: seagreen;
     text-decoration: none;
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -408,12 +562,13 @@ a.a8:visited{
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 15px;
+    border-radius: 7px;
 }
 
 a.a8:hover{
-    background-color: rgb(87, 100, 155);
+    background-color: black;
     text-decoration: none;
-    color: whitesmoke;
+    color: seagreen;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     padding-left: 25px;
@@ -421,6 +576,8 @@ a.a8:hover{
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 15px;
+    letter-spacing: 0.1rem;
+    border-radius: 7px;
 }
 
 .r6{
@@ -439,23 +596,155 @@ a.a8:hover{
 
 .r7{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .i1{
-    margin-left: 520px;
+    
+    transition: width 1s, height 1s;
+}
+
+.i1:hover{
+    width: 30px;
+    height: 30px;
 }
 
 .i2{
-    margin-left: 19px;
+    
+    transition: width 1s, height 1s;
+}
+
+.i2:hover{
+    width: 30px;
+    height: 30px;
 }
 
 .i3{
-    margin-left: 19px;
+    
+    transition: width 1s, height 1s;
+}
+
+.i3:hover{
+   
+    height: 30px;
 }
 
 .i4{
-    margin-left: 19px;
+   
+    transition: width 1s, height 1s;
+}
+
+.i4:hover{
+    width: 30px;
+    height: 31px;
+}
+
+.tr1{
+    transition: width 2s, height 2s;
+}
+
+.tr1:hover{
+    width: 360px;
+    height: 280px;
+}
+
+.tr2{
+    transition: width 2s, height 2s;
+}
+
+.tr2:hover{
+    width: 360px;
+    height: 280px;
+}
+
+.tr3{
+    transition: width 2s, height 2s;
+}
+
+.tr3:hover{
+    width: 360px;
+    height: 280px;
+}
+
+.tr4{
+    transition: width 2s, height 2s;
+}
+
+.tr4:hover{
+    width: 360px;
+    height: 280px;
+}
+
+.tr5{
+    transition: width 2s, height 2s;
+}
+
+.tr5:hover{
+    width: 360px;
+    height: 280px;
+}
+
+.tr6{
+    transition: width 2s, height 2s;
+}
+
+.tr6:hover{
+    width: 360px;
+    height: 280px;
+}
+
+.tr7{
+    transition: width 2s, height 2s;
+}
+
+.tr7:hover{
+    width: 360px;
+    height: 280px;
+}
+
+.tr8{
+    transition: width 2s, height 2s;
+}
+
+.tr8:hover{
+    width: 360px;
+    height: 280px;
+}
+
+.tr9{
+    transition: width 2s, height 2s;
+}
+
+.tr9:hover{
+    width: 360px;
+    height: 280px;
+}
+
+.tr10{
+    transition: width 2s, height 2s;
+}
+
+.tr10:hover{
+    width: 360px;
+    height: 280px;
+}
+
+.tr11{
+    transition: width 2s, height 2s;
+}
+
+.tr11:hover{
+    width: 360px;
+    height: 280px;
+}
+
+.tr12{
+    transition: width 2s, height 2s;
+}
+
+.tr12:hover{
+    width: 360px;
+    height: 280px;
 }
 
 .last{
